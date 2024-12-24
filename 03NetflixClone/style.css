@@ -1,0 +1,179 @@
+
+/* Greeting start with css */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* body */
+.body{
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+
+/* main or banner section */
+.main{
+    background-image: url(banner.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* nav bar */
+.nav-Bar{
+    height: 8vh;
+    width: 100vw;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+}
+
+#logo{
+    font-size: 40px;
+    color: red;
+}
+
+#signup-button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+
+/* content inside an main */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 92%;
+    width: 44%;
+    margin: auto;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+}
+
+.main-content h2{
+    font-size: 3.2em;
+    font-weight: bolder;
+}
+
+.main-content #guide1{
+    font-size: 1.2em;
+}
+
+.main-content #guide2{
+    font-size: 0.8em;
+}
+
+.quick-login{
+    width: 76%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quick-login #q-i{
+    height: 50px;
+    padding-left: 10px;
+    font-size: 0.8em;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid white;
+} 
+
+.quick-login #get-start{
+    height: 52px;
+    width: 140px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* section2  */
+.sec2{
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: black;
+    border-top: 2px solid red;
+    
+}
+
+.tranding-sec{
+    /* height: 40vh; */
+    width: 70vw;
+    /* background-color: red; */
+    margin: auto;
+    border-radius: 50px 50px 0 0;
+}
+
+.tranding-sec h2{
+    padding-top: 20px;
+}
+
+.tranding-sec select{
+    margin-left: 10px;
+    width: 14%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.tranding-list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    /* height: 80%; */
+    /* background-color: gray; */
+}
+
+.tranding-list img{
+    padding-top: 20px;
+    height: 260px;
+}
+
+.tranding-list img{
+    margin-top: 20px;
+    height: 260;
+    transition: all 0.4 ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* @media screen and (min-width: 480px) {
+    .main-content{
+      width: 80%;
+    }
+  } */
